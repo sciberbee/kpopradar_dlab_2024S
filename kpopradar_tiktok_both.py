@@ -52,9 +52,9 @@ bts_videos
 
 bp_followers['artist_name'].unique()
 
-bp_videos['artist_name'].unique()
-
 bts_videos['artist_name'].unique()
+
+bp_videos['artist_name'].unique()
 
 bp_videos['artist_name'] = bp_videos['artist_name'].replace(bp_videos['artist_name'].unique(), 'BLACKPINK')
 

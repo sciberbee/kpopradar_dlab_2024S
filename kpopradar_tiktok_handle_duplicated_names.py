@@ -55,7 +55,7 @@ test_before['song'].unique()
 
 ## 1. 대괄호, 작대기를 날린다
     ## 1-1. 그러면 DDU-DU가 필터링된다 => 폐기
-## 2. 한글 (영어) 형태를 regex로 capture해서 뚜두뚜두 or DDU-DU DDU-DU 포함 => DDU-DU DDU-DU 로 바꾼다.
+## 2. 한글 (영어) 형태를 regex로 capture해서 뚜두뚜두 or DDU-DU DDU-DU 포함하는 스트링들을 => DDU-DU DDU-DU 로 바꾼다.
 pattern_ko_en = '[\u3131-\uD79D\s]+ \([A-Za-z\s]+\)'  # 한국어 (영어)
 
 test_after = df[(df['artist_name'].str.contains(test_artist_name)) & (df['song'].str.contains(test_song_name))]
