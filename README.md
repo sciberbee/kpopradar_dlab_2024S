@@ -4,3 +4,4 @@
 Research Theme: Exploring the Impact of K-POP through YouTube Data: Assessing Influences on the Tourism and Record Industries
 
 https://www.kpop-radar.com/
+https://dlab.kaist.ac.kr/
